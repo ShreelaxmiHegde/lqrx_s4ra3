@@ -35,7 +35,7 @@ function renderCarousel(category, blogs) {
           <img src="${blog.cover_image}" alt="${blog.title}">
           <h3>${blog.title}</h3>
           <p>${blog.description}</p>
-          <a href="${blog.url}" target="_blank">Read More →</a>
+          <a href="${blog.url}" target="_blank">Read More <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>`
       ).join("")}
     </div>

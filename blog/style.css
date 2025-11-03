@@ -1,4 +1,4 @@
-#blogs {
+.blogs-a {
   margin-top: 100px;
   min-height: 100vh;
   display: flex;
@@ -9,11 +9,15 @@
 
 .category-section {
   margin-bottom: 3rem !important;
+  background-color: #8080806b;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .category-section h2 {
   font-size: 1.5rem !important;
   margin-bottom: 1rem !important;
+  text-align: center;
 }
 
 .carousel {
@@ -25,8 +29,8 @@
 }
 
 .blog-card-a {
-  background-color: rgb(139, 166, 203);
-
+  background-color: #13181e;
+  border: 1px solid gray;
   border-radius: 12px;
   padding: 1rem;
   backdrop-filter: blur(10px);
@@ -35,12 +39,14 @@
 
 .blog-card-a img {
   max-width: 200px;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .blog-card-a h3, .blog-card-a p {
   font-size: small;
 }
 
-.blog-card-a:hover {
-  transform: translateY(-5px);
+.blog-card-a a i {
+  font-size: 0.75rem;
 }
