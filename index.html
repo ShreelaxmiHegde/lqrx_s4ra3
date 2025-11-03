@@ -6,7 +6,7 @@
     
     <title>ShreelaxmiHegde</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="../blog/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link
@@ -126,7 +126,7 @@
 
         <div class="ruler mb-4 mt-4"></div>
 
-        <section class="m-section blogs wrapper two-col-layout" id="blogs">
+        <section class="m-section wrapper two-col-layout" id="blogs">
             <div>
                 <h2 class="blue-text mb-2">Blog Documentations</h2>
                 <p>I write blogs mainly to explore technical workflows, document my learnings and share my experiences in web development & programming.</p>
@@ -137,104 +137,33 @@
                     <li>⤷ <a href="">Learnings & Concepts</a> ⤳ explanations of key programming concepts & practical insights.</li>
                 </ul>
                 <p>Click on any topic above to explore the posts and see what I understood, implemented, & reflected on.</p>
-                <a href="./blog/blogs.html">Explore More →</a>
+                <a href="./blog/blogs.html">Explore More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                <h4 class="blue-text mb-2">Featured Blogs :</h4>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="blog-card">
-                            <div class="card-img">
-                                <h6>Auth Series Index: Building Authentication & Authorization in Express.js</h6>
-                                <div class="wrapper">
-                                    <div class="dev-card">
-                                        <div class="dev-img"></div>
-                                        <div>
-                                            Shreelaxmi Hegde
-                                            <br>Oct 25
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a href="https://dev.to/shreelaxmihegde" target="_blank">
-                                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev.to" height="50" width="50">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="blog-detail">In this series, we explore the core concepts and practical implementation of...
-                                <a href="https://dev.to/shreelaxmihegde/auth-series-index-building-authentication-and-authorization-in-expressjs-5hfm" target="_blank">Read More →</a>
-                            </p>
-                        </div>
-                    <div class="d-block w-100">
+            <div class="carousel-container">
+                <h4 class="blue-text">Featured Blogs :</h4>
+                <div class="carousel wrapper">
+                    <div class="blog-card-a">
+                        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9dunm7l3t7a5n4s09swi.png" alt="">
+                        <h3>Auth Series Index: Building Authentication & Authorization in Express.js</h3>
+                        <p>Welcome to my Auth Series! In this series, we explore the core concepts and practical...</p>
+                        <a href="https://dev.to/shreelaxmihegde/auth-series-index-building-authentication-and-authorization-in-expressjs-5hfm" target="_blank">Read More →</a>
                     </div>
+
+                    <div class="blog-card-a">
+                        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwidd0eqd8gvqntwe169p.png" alt="">
+                        <h3>Cascade deletion what happens to comments when you delete your post</h3>
+                        <p>When you delete your account or post, everything linked to it(comments, likes, followers) disappears...</p>
+                        <a href="https://dev.to/shreelaxmihegde/cascade-deletion-what-happens-to-comments-when-you-delete-your-post-mongodb-51f5" target="_blank">Read More →</a>
                     </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <div class="blog-card">
-                            <div class="card-img">
-                                <h6>Cascade deletion what happens to comments when you delete your post</h6>
-                                <div class="wrapper">
-                                    <div class="dev-card">
-                                        <div class="dev-img"></div>
-                                        <div>
-                                            Shreelaxmi Hegde
-                                            <br>Oct 11
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a href="https://dev.to/shreelaxmihegde" target="_blank">
-                                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev.to" height="50" width="50">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="blog-detail">Ever wondered what happens when you click “Submit” on a form? Let’s see what goes on behind the scenes... 
-                                <a href="https://dev.to/shreelaxmihegde/cascade-deletion-what-happens-to-comments-when-you-delete-your-post-mongodb-51f5" target="_blank">Read More →</a>
-                            </p>
-                        </div>
-                    <div class="d-block w-100">
-                    </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
-                        <div class="blog-card">
-                            <div class="card-img">
-                                <h6>The Magic of Client & Server Validation: How Your App Knows You Typed Your Email Wrong</h6>
-                                <div class="wrapper">
-                                    <div class="dev-card">
-                                        <div class="dev-img"></div>
-                                        <div>
-                                            Shreelaxmi Hegde
-                                            <br>Oct 9
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a href="https://dev.to/shreelaxmihegde" target="_blank">
-                                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev.to" height="50" width="50">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="blog-detail">Have you ever tried filling out a form? maybe logging in, signing up, or entering an OTP, and suddenly got a reminder...
-                                <a href="https://dev.to/shreelaxmihegde/the-magic-of-client-server-validation-how-your-app-knows-you-typed-your-email-wrong-2a1p" target="_blank">Read More →</a>
-                            </p>
-                        </div>
-                    <div class="d-block w-100">
-                    </div>
+
+                    <div class="blog-card-a">
+                        <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft1wib7if8t6vl5ghsxvv.png" alt="">
+                        <h3>The Magic of Client & Server Validation: How Your App Knows You Typed Your Email Wrong</h3>
+                        <p>Have you ever tried filling out a form? maybe logging in, signing up, or entering an OTP, and...</p>
+                        <a href="https://dev.to/shreelaxmihegde/the-magic-of-client-server-validation-how-your-app-knows-you-typed-your-email-wrong-2a1p" target="_blank">Read More →</a>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </section>
 
@@ -316,6 +245,8 @@
                 </div>
             </div>
         </section>
+
+        <a href="#home"><i class="fa-solid fa-circle-arrow-up"></i></a>
     </main>
 
     <footer>
