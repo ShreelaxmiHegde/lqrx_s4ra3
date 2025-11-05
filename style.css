@@ -236,22 +236,18 @@ nav a {
     display: flex;
 }
 
-th,
-td,
-table {
-    border: 2px solid black;
-    border-radius: 0.25rem;
-}
-
 .contact-form {
     background: linear-gradient(90deg, 
         rgba(37, 134, 255, 0.3), 
         rgba(0, 198, 255, 0.3)
     );
-    padding: 1rem;
+    max-height: 65vh;
     border-radius: 1rem;
+    padding: 1rem;
+    
     display: flex;
     flex-direction: column;
+    align-self: center;
 }
 
 .contact-form button,
@@ -263,6 +259,10 @@ table {
     margin: 1rem;
     padding: 0;
     border: none;
+}
+
+.contact-form button {
+    margin-inline: auto;
 }
 
 .contact-form textarea,
@@ -316,28 +316,50 @@ p {
 }
 
 b {
-    text-shadow: #ffcc00 1px 0 10px;
+    text-shadow: #f8ce2673 1px 0 10px;
 }
 
 .connect-btns {
+    background-color: #0e1117;
+    border-radius: 1rem;
+    padding: 1rem;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.connect-btn {
-    display: block;
-    color: black !important;
-    font-weight: bolder !important;
-    margin: 1rem;
-}
-
-.connect-btn a {
+.connect-btns div,
+.connect-btns a {
+    font-size: larger !important;
     text-decoration: none;
-    padding-inline: 0.5rem;
-    margin-inline: 0.5rem;
+    color: white;
 }
 
-.connect-btn i {
+.connect-btns div .fa-envelope,
+.connect-btns a .fa-brands {
+    margin: 0.5rem;
+    background-color: white;
+    padding: 0rem 0.1rem;
+    border-radius: 0.1rem;
     font-size: 1.5rem;
+}
+
+.connect-btns a .fa-arrow-up-right-from-square {
+    font-size: small;
+} 
+
+.carousel-container {
+    background-color: #0e1117;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 90vw;
+}
+
+.fa-circle-arrow-up {
+    font-size: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    color: #ffffff7a;
 }
