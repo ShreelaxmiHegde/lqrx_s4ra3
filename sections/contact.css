@@ -1,0 +1,72 @@
+.contact-form {
+    background: linear-gradient(90deg, 
+        rgba(37, 134, 255, 0.3), 
+        rgba(0, 198, 255, 0.3)
+    );
+    max-height: 65vh;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.contact-form button,
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0;
+    border: none;
+}
+
+.contact-form button {
+    margin-inline: auto;
+}
+
+.contact-form textarea,
+.contact-form input {
+    padding-left: 0.5rem;
+}
+
+.contact-form textarea {
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+
+.connect-btns {
+    background-color: #0e1117;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.connect-btns div,
+.connect-btns a {
+    font-size: larger !important;
+    text-decoration: none;
+    color: white;
+}
+
+.connect-btns div .fa-envelope,
+.connect-btns a .fa-brands {
+    margin: 0.5rem;
+    background-color: white;
+    padding: 0rem 0.1rem;
+    border-radius: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.connect-btns a .fa-arrow-up-right-from-square {
+    font-size: small;
+} 
+
+.connect p {
+    text-align: justify;
+}

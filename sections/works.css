@@ -1,0 +1,43 @@
+.p-card {
+    color: white !important;
+    background-color: #1c1d1e7a !important;
+    border: 1px solid gray !important;
+    border-radius: 12px;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+.p-card img {
+    border-radius: 0.3rem;
+}
+
+.p-card h3 {
+    background: linear-gradient(90deg, #2586ff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: medium !important;
+}
+
+.p-card p {
+    font-size: small !important;
+}
+
+.p-card a {
+    text-decoration: none;
+}
+
+.p-card a i {
+    font-size: small;
+}
+
+.p-badge span{
+    border: 0.3px solid #2586ff4a;
+    background-color:  #388bfd1a;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+    color: #42b8ff;
+    padding-inline: 4px;
+    border-radius: 0.75rem;
+    font-size: small;
+}

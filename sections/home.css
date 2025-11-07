@@ -1,0 +1,15 @@
+.media-icons {
+    display: flex;
+    align-items: center;
+}
+
+.media-icons a {
+    font-size: 2rem;
+    margin: 0.4rem;
+}
+
+.resume-btn {
+    background: linear-gradient(90deg, #F44336, #F57C00);
+    color: black !important;
+    font-weight: large !important;
+}
