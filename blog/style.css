@@ -50,3 +50,15 @@
 .blog-card-a a i {
   font-size: 0.75rem;
 }
+
+.blog-types {
+    padding: 0;
+}
+
+.blog-types li {
+    list-style: none;
+}
+
+.blog-types li a {
+    color: blueviolet;
+}
